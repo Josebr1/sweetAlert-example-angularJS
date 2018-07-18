@@ -1,0 +1,19 @@
+{
+  "name": "sweetalert",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngSweetAlert": "angular-sweetalert#1.1.0",
+    "sweetalert": "0.4.2",
+    "angular": "1.5.5"
+  }
+}

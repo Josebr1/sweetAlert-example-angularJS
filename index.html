@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Example SweetAlert</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/sweetalert/lib/sweet-alert.css">
+</head>
+
+<body ng-app="alertApp">
+
+  <div ng-controller="alertCtrl as app">
+    <p>
+      <h1>Simple Alert</h1>
+      <button ng-click="app.alert()">click</button>
+    </p>
+  </div>
+
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/ngSweetAlert/SweetAlert.min.js"></script>
+  <script src="bower_components/sweetalert/lib/sweet-alert.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
