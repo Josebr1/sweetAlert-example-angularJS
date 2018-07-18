@@ -2,6 +2,9 @@
 
 ## install bower install
 
-- Angular 1.5.5 
-- ngSweetAlert 1.1.0
-- sweetalert 0.4.2
+- Angular 1.7.2 
+- ngSweetAlert (angular-sweetalert#1.1.2) 1.1.2
+- sweetalert 1.1.3
+
+## bower
+> bower install angular@1.7.2 angular-sweetalert@1.1.2 sweetalert@1.1.3 --save
